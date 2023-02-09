@@ -2,12 +2,14 @@ package tests;
 
 import static io.qameta.allure.Allure.step;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class MainPageTest extends TestBase {
 
   @DisplayName("Страница Реквизиты содержит реквизиты компании OOO АйТи Авиа ")
+  @Owner("Dmitriy.Golovanov")
   @Test
   void companyDetails() {
     step("Открытие страницы АйТи-Авиа", () -> {
@@ -22,6 +24,7 @@ public class MainPageTest extends TestBase {
   }
 
   @DisplayName("Страница CARRIER содержит информацию об CARRIER.AERO")
+  @Owner("Dmitriy.Golovanov")
   @Test
   void carrierAero() {
     step("Открытие страницы АйТи-Авиа", () -> {
@@ -36,6 +39,7 @@ public class MainPageTest extends TestBase {
   }
 
   @DisplayName("Страница AGENCY содержит информацию об AGENCY.AERO")
+  @Owner("Dmitriy.Golovanov")
   @Test
   void agencyAero() {
     step("Открытие страницы АйТи-Авиа", () -> {
@@ -50,6 +54,7 @@ public class MainPageTest extends TestBase {
   }
 
   @DisplayName("Страница PORT содержит информацию о PORT.AERO")
+  @Owner("Dmitriy.Golovanov")
   @Test
   void portAero() {
     step("Открытие страницы АйТи-Авиа", () -> {
@@ -64,6 +69,7 @@ public class MainPageTest extends TestBase {
   }
 
   @DisplayName("Cтраница EDIFLY содержит информацию о EDIFLY - Innovative Software SARL")
+  @Owner("Dmitriy.Golovanov")
   @Test
   void ediFly() {
     step("Открытие страницы АйТи-Авиа", () -> {
@@ -79,6 +85,7 @@ public class MainPageTest extends TestBase {
   }
 
   @DisplayName("Переход на главную страницу при клике на лого сайта")
+  @Owner("Dmitriy.Golovanov")
   @Test
   void goMainPageByLogo() {
     step("Открытие страницы АйТи-Авиа", () -> {
