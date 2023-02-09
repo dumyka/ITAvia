@@ -6,7 +6,7 @@ import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class MainPageTest extends TestBase {
+public class MainPageItAviaTest extends TestBase {
 
   @DisplayName("Страница Реквизиты содержит реквизиты компании OOO АйТи Авиа ")
   @Owner("Dmitriy.Golovanov")
