@@ -77,17 +77,32 @@ test
 <img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
 </p>
 
-## 🧪: Тесты
+## 🧪: Пример тест кейса
 <p align="center">
-<img title="Allure Tests" src="images/screens/AllureTC.jpg">
+<img title="AllureSuite" src="images/screens/AllureSuite.jpg">
+</p>
+
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure_TO"/></a> Интеграция с Allure TestOps <a target="_blank" href="https://allure.autotests.cloud/project/1858/dashboards"></a>
+
+## :pinching_hand:: Пример ручного тест-кейса
+<p align="center">
+<img title="AllureTC" src="images/screens/AllureTC.jpg">
 </p>
 
 ## :bar_chart:: Доска
 <p align="center">
-<img title="Allure Tests" src="images/screens/AllureDashboard.jpg">
+<img title="AllureDashboard" src="images/screens/AllureDashboard.jpg">
 </p>
 
 ## :runner:: Прогоны
 <p align="center">
 <img title="Allure Tests" src="images/screens/AllureLaunches.jpg">
 </p>
+
+## <img src="images/logo/Jira.svg" width="25" height="25"  alt="Jira"/></a> Интеграция с Jira <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-519"></a>
+
+<p align="center">
+<img title="Jira" src="images/screens/Jira.jpg">
+</p>
+
+## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Telegram"/></a> Уведомления в телеграм с использованием бота <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-519"></a>
