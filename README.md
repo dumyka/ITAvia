@@ -48,3 +48,25 @@
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"><img src="images/screens/Jenkins1.jpg" alt="Jenkins1"/></a>
 </p>
+
+## :hammer_and_wrench:: Параметры сборки в Jenkins:
+
+- Browser (браузер, по умолчанию chrome)
+- Browser_version (версия браузера, по умолчанию 100.0)
+- Browser_size (размер окна браузера, по умолчанию 1920x1080)
+
+## :rocket:: Запуск тестов из терминала
+Локальный запуск:
+```
+gradle clean test
+```
+
+Удаленный запуск:
+```
+clean
+test
+-Dbrowser=${BROWSER}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-Durl=${REMOTE}
+```
