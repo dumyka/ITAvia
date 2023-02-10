@@ -98,3 +98,9 @@ test
 <p align="center">
 <img title="Allure Tests" src="images/screens/AllureLaunches.jpg">
 </p>
+
+## <img src="images/logo/Jira.jpg" width="25" height="25"  alt="Jira"/></a> Интеграция с Jira <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-519"></a>
+
+<p align="center">
+<img title="Jira" src="images/screens/Jira.jpg">
+</p>
