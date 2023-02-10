@@ -28,3 +28,18 @@
 <a href="https://github.com/"><img alt="GitHub" height="50" src="external/technologies/GitHub.svg" width="50"/></a>
 <a href="https://telegram.org/"><img alt="Telegram" height="50" src="external/technologies/Telegram.svg" width="50"/></a>
 </div>
+
+## :male_detective:: Реализованные проверки
+
+Автаматизированные тесты
+- ✓ Страница CARRIER содержит информацию об CARRIER.AERO 
+- ✓ Страница PORT содержит информацию о PORT.AERO
+- ✓ Страница AGENCY содержит информацию об AGENCY.AERO
+- ✓ Страница Реквизиты содержит реквизиты компании OOO АйТи Авиа
+- ✓ Переход на главную страницу при клике на лого сайта
+- ✓ Cтраница EDIFLY содержит информацию о EDIFLY - Innovative Software SARL
+
+Ручные тесты
+- ✓ Работа слайдера на главной странице
+- ✓ Отправка сообщения из формы обратной связи
+
