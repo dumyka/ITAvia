@@ -112,8 +112,9 @@ test
 </p>
 
 ## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Selenoid. Пример прогона тестов. <a target="_blank" href="https://selenoid.autotests.cloud/gif/example.gif"> </a>
+
 <p align="center">
-<video  src="images/gis/example.gif">
+<img title="Selenoid Video" src="images/gif/example.gif" width="250" height="153"  alt="video"> 
 </p>
 
 
