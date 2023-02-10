@@ -55,7 +55,7 @@
 - Browser_version (версия браузера, по умолчанию 100.0)
 - Browser_size (размер окна браузера, по умолчанию 1920x1080)
 
-## :rocket:: Запуск тестов из терминала
+## :rocket:: Запуск тестов
 Локальный запуск:
 ```
 gradle clean test
@@ -65,8 +65,8 @@ gradle clean test
 ```
 clean
 test
--Dbrowser=${BROWSER}
--DbrowserVersion=${BROWSER_VERSION}
+-Dremote=${REMOTE}
 -DbrowserSize=${BROWSER_SIZE}
--Durl=${REMOTE}
+-DbrowserVersion=${BROWSER_VERSION}
+-Dbrowser=${BROWSER}
 ```
