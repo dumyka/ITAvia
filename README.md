@@ -111,9 +111,9 @@ test
 <img title="telegram" src="images/screens/telegram.jpg">
 </p>
 
-## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Selenoid. Пример прогона тестов. <a target="_blank" href="https://selenoid.autotests.cloud/video/example.gif"> </a>
+## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Selenoid. Пример прогона тестов. <a target="_blank" href="https://selenoid.autotests.cloud/gif/example.gif"> </a>
 <p align="center">
-<a href="https://selenoid.autotests.cloud/video/example.gif"></a>
+<a href="https://selenoid.autotests.cloud/gif/example.gif"></a>
 </p>
 
 
