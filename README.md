@@ -77,3 +77,17 @@ test
 <img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
 </p>
 
+## 🧪: Тесты
+<p align="center">
+<img title="Allure Tests" src="images/screens/AllureTC.PNG">
+</p>
+
+## :bar_chart:: Доска
+<p align="center">
+<img title="Allure Tests" src="images/screens/AllureDashboard.PNG">
+</p>
+
+## :runner:: Прогоны
+<p align="center">
+<img title="Allure Tests" src="images/screens/AllureLaunches.PNG">
+</p>
