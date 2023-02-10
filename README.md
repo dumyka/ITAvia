@@ -7,7 +7,6 @@
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
-- [Примеры использования](#earth_africa-Allure-отчет)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Интеграция с Allure TestOps](#earth_africa-Интеграция-c-Allure-TestOps)
 - [Интеграция с Jira](#earth_africa-Интеграция-c-Jira)
@@ -44,3 +43,31 @@
 - ✓ Работа слайдера на главной странице
 - ✓ Отправка сообщения из формы обратной связи
 
+## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка <a target="_blank" href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"> Jenkins </a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"><img src="images/screens/Jenkins1.jpg" alt="Jenkins1"/></a>
+</p>
+
+## :hammer_and_wrench:: Параметры сборки в Jenkins:
+- remote (адрес удаленного сервера)
+- browserSize (размер окна браузера, по умолчанию 1920x1080)
+- browserVersion (версия браузера, по умолчанию 100.0)
+- browser (браузер, по умолчанию chrome)
+
+## :rocket:: Запуск тестов
+Локальный запуск:
+```
+gradle clean test
+```
+
+Удаленный запуск:
+```
+clean
+test
+-Dremote=${REMOTE}
+-DbrowserSize=${BROWSER_SIZE}
+-DbrowserVersion=${BROWSER_VERSION}
+-Dbrowser=${BROWSER}
+```
+
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure отчет <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/allure/"></a>
