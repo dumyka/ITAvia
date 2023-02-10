@@ -77,14 +77,14 @@ test
 <img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
 </p>
 
-## :pinching_hand:: Пример ручного тест кейса
+## 🧪: Пример тест кейса
 <p align="center">
 <img title="AllureSuite" src="images/screens/AllureSuite.jpg">
 </p>
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure_TO"/></a> Интеграция с Allure TestOps <a target="_blank" href="https://allure.autotests.cloud/project/1858/dashboards"></a>
 
-## 🧪: Тесты
+## :pinching_hand:: Пример ручного тест-кейса
 <p align="center">
 <img title="AllureTC" src="images/screens/AllureTC.jpg">
 </p>
