@@ -76,3 +76,4 @@ test
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
 </p>
+C:\Users\Dmitriy.Golovanov\IdeaProjects\ITAvia\images\screens\Allure.jpg
