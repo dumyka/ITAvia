@@ -7,7 +7,6 @@
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
-- [Примеры использования](#earth_africa-Allure-отчет)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Интеграция с Allure TestOps](#earth_africa-Интеграция-c-Allure-TestOps)
 - [Интеграция с Jira](#earth_africa-Интеграция-c-Jira)
@@ -70,3 +69,5 @@ test
 -DbrowserVersion=${BROWSER_VERSION}
 -Dbrowser=${BROWSER}
 ```
+
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure отчет <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/allure/"></a>
