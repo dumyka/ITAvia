@@ -44,3 +44,7 @@
 - ✓ Работа слайдера на главной странице
 - ✓ Отправка сообщения из формы обратной связи
 
+## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"> job </a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/017-dumyka-itavia/"><img src="images/screens/Jenkins1.jpg" alt="Jenkins1"/></a>
+</p>
