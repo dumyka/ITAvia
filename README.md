@@ -71,3 +71,23 @@ test
 ```
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Allure отчет <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/allure/"></a>
+
+## ⛅: Основной отчет
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
+</p>
+
+## 🧪: Тесты
+<p align="center">
+<img title="Allure Tests" src="images/screens/AllureTC.jpg">
+</p>
+
+## :bar_chart:: Доска
+<p align="center">
+<img title="Allure Tests" src="images/screens/AllureDashboard.jpg">
+</p>
+
+## :runner:: Прогоны
+<p align="center">
+<img title="Allure Tests" src="images/screens/AllureLaunches.jpg">
+</p>
