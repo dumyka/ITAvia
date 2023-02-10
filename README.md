@@ -110,3 +110,10 @@ test
 <p align="center">
 <img title="telegram" src="images/screens/telegram.jpg">
 </p>
+
+## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Selenoid. Пример прогона тестов. <a target="_blank" href="https://selenoid.autotests.cloud/video/28534f91620654ecd8589058cc3bceb2.mp4"> </a>
+<p align="center">
+<a href="https://selenoid.autotests.cloud/video/28534f91620654ecd8589058cc3bceb2.mp4"></a>
+</p>
+
+
