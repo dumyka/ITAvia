@@ -79,15 +79,15 @@ test
 
 ## 🧪: Тесты
 <p align="center">
-<img title="Allure Tests" src="images/screens/AllureTC.PNG">
+<img title="Allure Tests" src="images/screens/AllureTC.jpg">
 </p>
 
 ## :bar_chart:: Доска
 <p align="center">
-<img title="Allure Tests" src="images/screens/AllureDashboard.PNG">
+<img title="Allure Tests" src="images/screens/AllureDashboard.jpg">
 </p>
 
 ## :runner:: Прогоны
 <p align="center">
-<img title="Allure Tests" src="images/screens/AllureLaunches.PNG">
+<img title="Allure Tests" src="images/screens/AllureLaunches.jpg">
 </p>
