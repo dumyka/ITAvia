@@ -77,6 +77,8 @@ test
 <img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
 </p>
 
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure_TO"/></a> Интеграция с Allure TestOps <a target="_blank" href="https://allure.autotests.cloud/project/1858/dashboards"></a>
+
 ## 🧪: Тесты
 <p align="center">
 <img title="Allure Tests" src="images/screens/AllureTC.jpg">
