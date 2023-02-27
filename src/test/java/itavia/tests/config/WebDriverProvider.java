@@ -20,6 +20,7 @@ public class WebDriverProvider extends TestBase {
     Configuration.baseUrl = config.getBaseUrl();
     Configuration.browserVersion = config.getBrowserVersion();
     Configuration.remote = config.getRemoteURL();
+    Configuration.browserSize = config.getBrowserSize();
 
     DesiredCapabilities capabilities = new DesiredCapabilities();
     capabilities.setCapability("selenoid:options", Map.<String, Object>of(
