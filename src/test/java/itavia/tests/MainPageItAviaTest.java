@@ -1,4 +1,4 @@
-package tests;
+package itavia.tests;
 
 import static io.qameta.allure.Allure.step;
 
