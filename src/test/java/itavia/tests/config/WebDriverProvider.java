@@ -16,17 +16,7 @@ public class WebDriverProvider extends TestBase {
   }
 
   private void createWebDriver() {
-    switch (config.getBrowser()) {
-      case "chrome":
-        Configuration.browser = "chrome";
-        break;
-      case "firefox":
-        Configuration.browser = "firefox";
-        break;
-      default:
-        throw new RuntimeException(config.getBrowser());
-    }
-
+    Configuration.browser = config.getBrowser();
     Configuration.baseUrl = config.getBaseUrl();
     Configuration.browserVersion = config.getBrowserVersion();
     Configuration.remote = config.getRemoteURL();
@@ -38,5 +28,4 @@ public class WebDriverProvider extends TestBase {
     ));
     Configuration.browserCapabilities = capabilities;
   }
-
 }

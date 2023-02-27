@@ -1,8 +1,9 @@
 package itavia.tests.config;
 
 import org.aeonbits.owner.Config;
+
 @Config.Sources({
-    "classpath:local.properties"
+    "classpath:${env}.properties"
 })
 public interface WebDriverConfig extends Config {
 
