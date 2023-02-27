@@ -16,7 +16,7 @@ public class WebDriverProvider extends TestBase {
   }
 
   private void createWebDriver() {
-    switch (config.getBrowser().toLowerCase()) {
+    switch (config.getBrowser()) {
       case "chrome":
         Configuration.browser = "chrome";
         break;
