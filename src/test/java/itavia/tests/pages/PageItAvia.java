@@ -6,7 +6,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class PageItAvia {
-  private final String TEXT = "Инвенторная система бронирования грузовых авиперевозок";
+  private final String TEXT = "Разработка и развитие, внедрение и сопровождение эксплуатации" +
+      " автоматизированных распределительных (дистрибутивных) систем";
   private final String TEXT2 = "ООО «АйТи Авиа»";
   private final String TEXT3 = "CARRIER.AERO";
   private final String TEXT4 = "AGENCY.AERO";
@@ -15,7 +16,7 @@ public class PageItAvia {
 
   public PageItAvia openPageItAvia() {
     open("https://www.itavia.ru/");
-    $("#comp-jmjesc8m").shouldHave(text(TEXT));
+    $("h3.font_8").shouldHave(text(TEXT));
     return this;
   }
 
@@ -75,7 +76,7 @@ public class PageItAvia {
   }
 
   public PageItAvia verifyMainPage() {
-    $("#comp-jmjesc8m").shouldHave(text(TEXT));
+    $("h3.font_8").shouldHave(text(TEXT));
     return this;
   }
 
