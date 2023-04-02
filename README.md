@@ -77,7 +77,7 @@ test
 <img title="Allure Overview Dashboard" src="images/screens/Allure.jpg">
 </p>
 
-## 🧪: Пример тест кейса
+## 🧪: Пример авто-тест кейса
 <p align="center">
 <img title="AllureSuite" src="images/screens/AllureSuite.jpg">
 </p>
