@@ -1,5 +1,5 @@
 # Проект по автоматизации тестирования главной страницы itavia.ru
-
+<img  src="images/screens/itavia.jpg">
 
 ## :man_student:: Содержание:
 
