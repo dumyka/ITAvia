@@ -1,4 +1,4 @@
-package itavia.tests.pages;
+package itavia.pages;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;

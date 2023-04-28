@@ -1,4 +1,4 @@
-package itavia.tests.config;
+package itavia.config;
 
 import org.aeonbits.owner.Config;
 

@@ -2,19 +2,19 @@ package itavia.tests;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import itavia.tests.config.WebDriverConfig;
-import itavia.tests.config.WebDriverProvider;
-import itavia.tests.helpers.Attach;
+import itavia.config.WebDriverConfig;
+import itavia.pages.AgencyAeroPage;
+import itavia.pages.CareerAeroPage;
+import itavia.pages.ItAviaPage;
+import itavia.pages.RequisitesPage;
+import itavia.config.WebDriverProvider;
+import itavia.helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
-import itavia.tests.pages.AgencyAeroPage;
-import itavia.tests.pages.CareerAeroPage;
-import itavia.tests.pages.EdiflyAeroPage;
-import itavia.tests.pages.PortAeroPage;
-import itavia.tests.pages.RequisitesPage;
+import itavia.pages.EdiflyAeroPage;
+import itavia.pages.PortAeroPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import itavia.tests.pages.ItAviaPage;
 
 public class TestBase {
   ItAviaPage itAviaPage = new ItAviaPage();

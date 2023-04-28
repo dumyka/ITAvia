@@ -1,4 +1,4 @@
-package itavia.tests.config;
+package itavia.config;
 
 import com.codeborne.selenide.Configuration;
 import itavia.tests.TestBase;

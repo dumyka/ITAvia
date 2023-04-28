@@ -1,4 +1,4 @@
-package itavia.tests.helpers;
+package itavia.helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
