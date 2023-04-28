@@ -7,22 +7,20 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Owner("Dmitriy.Golovanov")
-public class MainPageItAviaTest extends TestBase {
+public class RequisitesPageTest extends TestBase {
 
-  @DisplayName("Переход на главную страницу при клике на лого сайта")
+  @DisplayName("Страница Реквизиты содержит реквизиты компании OOO АйТи Авиа ")
   @Test
-  void goMainPageByLogo() {
+  void checkCompanyInformation() {
     step("Открытие страницы АйТи-Авиа", () -> {
       itAviaPage.openPageItAvia();
     });
     step("Открытие страницы с реквизитами", () -> {
       requisitesPage.clickRequisites();
     });
-    step("Нажатие на логотип сайта", () -> {
-      itAviaPage.clickLogoSite();
-    });
-    step("Проверка, что переход осуществился на главную страницу", () -> {
-      itAviaPage.verifyMainPage();
+    step("Проверка, что реквизиты принадлежат АйТи-Авиа", () -> {
+      requisitesPage.verifyRequisites();
     });
   }
+
 }

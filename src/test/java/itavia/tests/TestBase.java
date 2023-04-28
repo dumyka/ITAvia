@@ -1,17 +1,28 @@
 package itavia.tests;
 
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import itavia.tests.config.WebDriverConfig;
 import itavia.tests.config.WebDriverProvider;
 import itavia.tests.helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
+import itavia.tests.pages.AgencyAeroPage;
+import itavia.tests.pages.CareerAeroPage;
+import itavia.tests.pages.EdiflyAeroPage;
+import itavia.tests.pages.PortAeroPage;
+import itavia.tests.pages.RequisitesPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import itavia.tests.pages.PageItAvia;
+import itavia.tests.pages.ItAviaPage;
 
 public class TestBase {
-  PageItAvia pageItAvia = new PageItAvia();
+  ItAviaPage itAviaPage = new ItAviaPage();
+  CareerAeroPage careerPage = new CareerAeroPage();
+  AgencyAeroPage agencyAeroPage = new AgencyAeroPage();
+  PortAeroPage portAeroPage = new PortAeroPage();
+  EdiflyAeroPage ediflyAeroPage = new EdiflyAeroPage();
+  RequisitesPage requisitesPage = new RequisitesPage();
   private static WebDriverConfig config;
 
 
@@ -20,7 +31,9 @@ public class TestBase {
 
     WebDriverProvider provider = new WebDriverProvider();
 
+    new WebDriverProvider().createWebDriver();
   }
+
 
   @BeforeEach
   void addListener() {
@@ -34,6 +47,7 @@ public class TestBase {
     Attach.pageSource();
     Attach.browserConsoleLogs();
     Attach.addVideo();
+    Selenide.closeWebDriver();
   }
 }
 

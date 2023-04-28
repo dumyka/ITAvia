@@ -3,7 +3,7 @@ package itavia.tests.config;
 import org.aeonbits.owner.Config;
 
 @Config.Sources({
-    "classpath:remote.properties"
+    "classpath:${env}.properties"
 })
 public interface WebDriverConfig extends Config {
 
@@ -25,4 +25,7 @@ public interface WebDriverConfig extends Config {
 
   @Key("remoteUrl")
   String getRemoteURL();
+
+  @Key("videoUrl")
+  String getVideoUrl();
 }
