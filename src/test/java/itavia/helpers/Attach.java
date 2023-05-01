@@ -2,6 +2,8 @@ package itavia.helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
+import itavia.config.WebDriverConfig;
+import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -44,7 +46,8 @@ public class Attach {
   }
 
   public static URL getVideoUrl() {
-    String videoUrl = "https://selenoid.autotests.cloud/video/" + sessionId() + ".mp4";
+    WebDriverConfig config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
+    String videoUrl = config.getVideoUrl() + sessionId() + ".mp4";
 
     try {
       return new URL(videoUrl);
