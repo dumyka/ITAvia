@@ -23,13 +23,10 @@ public class TestBase {
   PortAeroPage portAeroPage = new PortAeroPage();
   EdiflyAeroPage ediflyAeroPage = new EdiflyAeroPage();
   RequisitesPage requisitesPage = new RequisitesPage();
-  private static WebDriverConfig config;
 
 
   @BeforeAll
   static void beforeAll() {
-
-    WebDriverProvider provider = new WebDriverProvider();
 
     new WebDriverProvider().createWebDriver();
   }
